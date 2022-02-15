@@ -13,7 +13,7 @@ import java.net.URL;
 @SideOnly(Side.CLIENT)
 public class ThreadGetPatrons extends Thread
 {
-    public String patronList = "https://raw.github.com/iChun/iChunUtil/master/src/main/resources/assets/ichunutil/mod/patrons.json";
+    public String patronList = "https://raw.githubusercontent.com/iChun/iChunUtil/1.7.10_legacy/src/main/resources/assets/ichunutil/mod/patrons.json";
 
     public ThreadGetPatrons()
     {
