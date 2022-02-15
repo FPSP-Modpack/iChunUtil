@@ -1,21 +1,21 @@
-[
 {
-  "modid" : "iChunUtil",
-  "name" : "iChunUtil",
-  "version" : "${version}",
-  "url" : "http://www.ichun.us/",
-  "credits" : "",
-  "authors": [
-    "iChun", "Kihira"
-  ],
-  "description": "Shared library mod required by several of iChun's Mods.",
-  "logoFile" : "",
-  "updateUrl" : "",
-  "parent" : "",
-  "screenshots": [
-  ],
-  "dependancies": [
-    "Forge"
-  ]
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "Shared library mod required by several of iChun's Mods.",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "https://www.ichun.us/",
+		"updateUrl": "",
+		"authorList": ["iChun", "Kihira"],
+		"credits": "",
+		"logoFile": "",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": true
+	}]
 }
-]
